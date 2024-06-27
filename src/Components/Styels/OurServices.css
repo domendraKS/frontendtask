@@ -1,0 +1,48 @@
+.ourServices {
+  width: 100%;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 16px 0;
+}
+
+.ourServices .servicesDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 32px;
+}
+
+.ourServices .serviceContainer {
+  background-color: #ffffff;
+  box-shadow: -3px 4px 16px 0px #0000000a;
+  padding: 4px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 32px;
+  border-radius: 8px;
+}
+
+.ourServices .serviceContainer .serviceIcon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.ourServices .serviceContainer .serviceIcon .icon {
+  font-size: 22px;
+  padding-top: 8px;
+  color: #0078ff;
+}
+
+.ourServices .serviceContainer h4 {
+  margin: 6px auto;
+}
+
+.ourServices .serviceContainer p {
+  margin: 6px auto;
+}

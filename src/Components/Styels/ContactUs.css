@@ -1,0 +1,84 @@
+.contactUs {
+  width: 55%;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.contactUs h3 {
+  font-weight: 700;
+  color: #000c1a;
+}
+
+.contactUs p {
+  color: #333333;
+}
+
+.contactUs .contactUsForm {
+  box-shadow: 0px 10px 44px 0px #0000001a;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.contactUs .contactUsForm .formInput {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+  margin: 12px;
+}
+
+.contactUs .contactUsForm .formInput .shorInput {
+  flex: 1;
+}
+
+.contactUs .contactUsForm .formInput .shorInput .singleInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.contactUs .contactUsForm .formInput .shorInput .singleInput input[type="text"],
+input[type="email"] {
+  width: 95%;
+  border: 1px solid #c7c7c7;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.contactUs
+  .contactUsForm
+  .formInput
+  .shorInput
+  .singleInput
+  input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  color: var(--UT-70, #a9b1bb);
+}
+
+.contactUs .contactUsForm .formInput .shorInput .singleInput label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0f1407;
+}
+
+.contactUs .contactUsForm .formInput .longInput {
+  flex: 1;
+}
+
+.contactUs .contactUsForm .formInput .longInput textarea {
+  width: 95%;
+  border: 1px solid #c7c7c7;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.contactUs .contactUsForm .formInput .longInput textarea::placeholder {
+  color: var(--UT-70, #a9b1bb);
+}
+
+.contactUs .contactUsForm .formInput .longInput label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0f1407;
+}

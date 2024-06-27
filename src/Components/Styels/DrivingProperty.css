@@ -1,0 +1,71 @@
+.dm {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.dm .headingdm {
+  text-align: center;
+}
+
+.dm p {
+  text-align: center;
+}
+
+.dm .dmDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  padding: 8px 48px;
+  gap: 32px;
+}
+
+.dm .dmDetails .dmImage {
+  width: 90%;
+  height: 85%;
+}
+
+.dm .dmDetails .dmImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dm .dmDetails .contentSide h2 {
+  margin: 12px 0;
+}
+
+.dm .dmDetails .contentSide p {
+  color: #333333;
+  text-align: justify;
+}
+
+.inquiriesConversions {
+  text-align: center;
+  margin: 6px 32px;
+}
+
+.inquiriesConversions .icsDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.inquiriesConversions .icsDetails .icDetail {
+  padding: 16px;
+}
+
+.inquiriesConversions .icsDetails .icDetail .icImgContainer {
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  padding: 12px;
+  width: 70px;
+  margin: auto;
+}
+
+.inquiriesConversions .icsDetails .icDetail .icImgContainer img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  margin: auto;
+  margin-top: 4px;
+}

@@ -1,0 +1,36 @@
+.fdm {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.fdm .headingFDM {
+  text-align: center;
+}
+
+.fdm .fdmDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  padding: 8px 48px;
+  gap: 32px;
+}
+
+.fdm .fdmDetails .fdmImage {
+  width: 90%;
+  height: 85%;
+}
+
+.fdm .fdmDetails .fdmImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fdm .fdmDetails .contentSide h2 {
+  margin: 12px 0;
+}
+
+.fdm .fdmDetails .contentSide p {
+  color: #333333;
+  text-align: justify;
+}

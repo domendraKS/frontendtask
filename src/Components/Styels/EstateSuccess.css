@@ -1,0 +1,49 @@
+.bgContainer {
+  background-image: url("/public/assets/backgroundImage1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 420px;
+}
+
+.textEstateSuccess {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.textEstateSuccess .heading {
+  font-weight: 500;
+  font-size: 28px;
+  margin: 8px;
+}
+
+.textEstateSuccess .shortDesc {
+  color: #333333;
+  font-size: 16px;
+}
+
+.weNeedMarketingImg {
+  text-align: center;
+  width: 42%;
+  margin: auto;
+  position: relative;
+}
+
+.weNeedMarketingImg .textOnImage {
+  position: absolute;
+  top: 31%;
+  left: 22%;
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0px 4px 13px #9bc9fc;
+  margin: 0;
+}
+
+.weNeedMarketingImg img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

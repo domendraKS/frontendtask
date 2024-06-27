@@ -1,0 +1,87 @@
+footer {
+  background: linear-gradient(
+    261.57deg,
+    rgba(0, 111, 237, 0.12) 18.01%,
+    rgba(179, 214, 255, 0.12) 90.03%
+  );
+  margin: 12px auto;
+  padding: 24px 16px;
+  width: 92%;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer .footerCol1 {
+  width: 45%;
+}
+
+footer .footerCol1 .footerLogo {
+  width: 100px;
+}
+
+footer .footerCol1 .aboutCmpn {
+  color: #333333;
+}
+
+footer .footerCol1 .addressContainer {
+  color: #333333;
+}
+
+footer .footerCol1 .addressContainer h4 {
+  margin: 12px 0;
+}
+
+footer .footerCol1 .contactContainer h4 {
+  margin: 12px 0;
+}
+
+footer .footerCol1 .contactContainer .contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0;
+}
+
+footer .footerCol2 {
+  width: 15%;
+}
+
+footer .footerCol2 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .footerCol2 ul li {
+  margin: 6px auto;
+}
+
+footer .footerCol2 ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer .footerCol3 {
+  width: 25%;
+}
+
+footer .footerCol3 .mainIconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+footer .footerCol3 .mainIconsContainer .iconContainer {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000c1a;
+}
+
+footer .footerCol3 .mainIconsContainer .iconContainer .icon {
+  font-size: 18px;
+  margin: 9px;
+}

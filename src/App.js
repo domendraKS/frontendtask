@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DrivingProperty from "./Components/DrivingProperty";
+import EstateSuccess from "./Components/EstateSuccess";
+import FocusedDigitalMastery from "./Components/FocusedDigitalMastery";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Navigating from "./Components/Navigating";
+import OurServices from "./Components/OurServices";
+import ActionExperties from "./Components/ActionExperties";
+import PeaceOfMind from "./Components/PeaceOfMind";
+import OurPharma from "./Components/OurPharma";
+import ContactUs from "./Components/ContactUs";
+import AskedQuestion from "./Components/AskedQuestion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <main style={{ minHeight: "420px" }}>
+        <EstateSuccess />
+        <FocusedDigitalMastery />
+        <OurServices />
+        <Navigating />
+        <DrivingProperty />
+        <ActionExperties />
+        <PeaceOfMind />
+        <OurPharma />
+        <AskedQuestion />
+        <ContactUs />
+      </main>
+      <Footer />
+    </>
   );
 }
 
